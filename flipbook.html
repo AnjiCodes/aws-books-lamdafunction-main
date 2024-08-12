@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookager - Flipbook</title>
+    <link rel="stylesheet" href="./flipbook-style.css">
+    <script src="./flipbook-js.js" defer></script>
+    <script src="https://kit.fontawesome.com/259c881ead.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="body-flex">
+        <!-- Previous Button -->
+        <button id="prev-btn">
+            <i class="fas fa-arrow-circle-left"></i>
+        </button>
+
+        <!-- Book -->
+        <div id="book" class="book">
+            <!-- Paper 1 -->
+            <div id="p1" class="paper">
+                <div class="front">
+                    <div class="page-border">
+                        <div id="f1" class="front-content">
+                            <img src="logo-navy.png" class="logo" height="90px" width="90px">
+                            <h1 class="title white-font">BOOKAGER</h1>
+                            <p class="tagline white-font">A place where all the readers gathers!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="page-border">
+                        <div id="b1" class="back-content">
+                            <h2>What is Bookager?</h2>
+                            <p class="paragraph">Bookager is a cutting-edge web application that lets you manage your book collection effortlessly using AWS cloud services. Enjoy seamless CRUD operations, secure user authentication, and a responsive interface.</p>
+                            <h2>Major Features</h2>
+                            <ul class="features-list">
+                                <li>User Authentication (AWS Cognito)👥</li>
+                                <li>Book CRUD Operations✏️</li>
+                                <li>Interactive and Responsive UI🎨</li>
+                                <li>Serverless Backend with AWS Lambda⚙️</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paper 2 -->
+            <div id="p2" class="paper">
+                <div class="front">
+                    <div class="page-border">
+                        <div id="f2" class="front-content">
+                            <h2>AWS Implementation</h2>
+                            <img src="path-to-your-architecture-diagram.png" alt="AWS Architecture Diagram" class="diagram">
+                            <p class="paragraph">Our architecture leverages AWS Lambda, DynamoDB, S3,
+                                and Cognito to create a scalable, secure, and efficient backend for our application.</p>
+                            <h2>AWS Services We Use</h2>
+                            <ul class="features-list">
+                                <li><strong>S3:</strong> Hosting static assets</li>
+                                <li><strong>Lambda:</strong> Backend logic without servers</li>
+                                <li><strong>DynamoDB:</strong> Fast data storage and retrieval</li>
+                                <li><strong>Cognito:</strong> Secure user authentication</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="page-border">
+                        <div id="b2" class="back-content">
+                            <h2>How to Use Bookager</h2>
+                            <div class="user-guide">
+                                <div class="step">
+                                    <h3>Step 1️⃣</h3>
+                                    <p class="steps">Sign up or log in using AWS Cognito.</p>
+                                </div>
+                                <div class="step">
+                                    <h3>Step 2️⃣</h3>
+                                    <p class="steps">Add your books using the "Add Book" feature.</p>
+                                </div>
+                                <div class="step">
+                                    <h3>Step 3️⃣</h3>
+                                    <p class="steps">View, edit, or delete your books as needed.</p>
+                                </div>
+                                <div class="step">
+                                    <h3>Step 4️⃣</h3>
+                                    <p class="steps">Explore the interactive flipbook to learn more about Bookager.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paper 3 -->
+            <div id="p3" class="paper">
+                <div class="front">
+                    <div class="page-border">
+                        <div id="f3" class="front-content">
+                            <h2>Meet Our Team</h2>
+                            <div class="team-container">
+                                <div class="team-member">
+                                    <img src="team.png" class="team-photo">
+                                    <h3>Developer 1</h3>
+                                    <p>Frontend Developer</p>
+                                    <p class="bio">Short bio about Developer 1, expertise in UI/UX design, and a passion for creating intuitive user interfaces.</p>
+                                    <p>
+                                        <a href="https://www.linkedin.com/in/developer1" target="_blank" class="social-link">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                        <a href="https://github.com/developer1" target="_blank" class="social-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="page-border">
+                        <div id="b3" class="back-content">
+                            <h1>Thank You!</h1>
+                            <p class="paragraph">Happy Reading with Bookager!</p>
+                            <p><a href="https://github.com/your-repo-link" target="_blank" class="github-link">View on GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Next Button -->
+        <button id="next-btn">
+            <i class="fas fa-arrow-circle-right"></i>
+        </button>
+    </div>
+
+    <footer>
+        <p><a href="index.html" class="flipbook-link">- Go Back -</a></p>
+        &copy; Bookager 2024
+    </footer>
+
+</body>
+</html>

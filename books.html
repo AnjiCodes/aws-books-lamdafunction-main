@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookager</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1386.0.min.js"></script>
+    <script src="amazon-cognito-identity.min.js"></script>
+</head>
+<body>
+    <div class="lock-top-bar">
+        <div class="spacer2 layer2"></div>
+        <section id="section3">
+            <div class="logo-title">
+                <img src="logo-navy.png" class="zero-space" height="60px" width="60px" alt="image"> 
+                <p class="title2 zero-space">BOOKAGER</p>
+            </div>
+            <div class="zero-space signout-button">
+                <button id="addBookBtn">Add Book</button>
+                <button id="logoutBtn" style="--c:#CE2D4F">Sign Out</button>
+                <button id="resetPasswordBtn">Reset Password</button>
+                <button id="deleteAccountBtn" style="--c:#CE2D4F">Delete Account</button>
+            </div>
+        </section>
+    </div>
+    <section id="section4"></section>
+
+    <section id="section5">
+        <!-- Example book card -->
+        <div class="card">
+            <div class="content">
+                <h1 class="booktitle zero-space">Automating DevOps with GitLab CI/CD Pipelines</h1>
+                <img src="logo-navy.png" alt="Book cover">
+                <p class="para"><span class="bold">Authors:</span> Author1, Author2, Author3</p>
+                <p class="para"><span class="bold">Publisher:</span> Publisher name</p>
+                <p class="para"><span class="bold">Year:</span> 2023</p>
+                <div class="crud-buttons">
+                    <button class="editBookBtn">Edit</button>
+                    <button class="deleteBookBtn" style="--c:#CE2D4F">Delete</button>
+                </div>
+            </div>
+        </div> 
+        <!-- Add more book cards as needed -->
+    </section>
+
+    <!-- Pop-up Containers -->
+    <div id="popup-container" class="popup-container">
+        <div class="popup" id="addBook">
+            <div class="form-flex">
+                <button class="close-btn" id="closeAddBook">Close</button>
+                <h2 class="black">Add Book</h2>
+                <input type="text" id="book-title" placeholder="Book Title">
+                <input type="text" id="book-author" placeholder="Author Name">
+                <input type="text" id="book-publisher" placeholder="Book Publisher">
+                <input type="number" id="book-year" name="Year" placeholder="YYYY"/>
+                <button id="addBookSubmit">Add Book</button>
+            </div>
+        </div>
+        <div class="popup" id="editBook">
+            <div class="form-flex">
+                <button class="close-btn" id="closeEditBook">Close</button>
+                <h2 class="black">Edit Book</h2>
+                <input type="text" id="edit-book-title" placeholder="Book Title">
+                <input type="text" id="edit-book-author" placeholder="Author Name">
+                <input type="text" id="edit-book-publisher" placeholder="Book Publisher">
+                <input type="number" id="edit-book-year" name="Year" placeholder="YYYY"/>
+                <button id="editBookSubmit">Edit Book</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Bookager 2024
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
