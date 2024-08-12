@@ -39,20 +39,6 @@ The architecture leverages AWS services to create a fully serverless application
 
 ![Solution Architecture Diagram](path_to_your_architecture_diagram_image)
 
-## 👥 Meet the Team
-
-- **Developer 1:** Frontend Developer  
-  _Expertise in UI/UX design and creating intuitive user interfaces._  
-  [LinkedIn](https://www.linkedin.com/in/developer1) | [GitHub](https://github.com/developer1)
-
-- **Developer 2:** Backend Developer  
-  _Specializes in server-side logic, databases, and API development._  
-  [LinkedIn](https://www.linkedin.com/in/developer2) | [GitHub](https://github.com/developer2)
-
-- **Developer 3:** Cloud Architect  
-  _Expertise in cloud infrastructure, AWS services, and system architecture._  
-  [LinkedIn](https://www.linkedin.com/in/developer3) | [GitHub](https://github.com/developer3)
-
 ## 📚 User Guide
 
 ### Step 1: Sign up or Log in
