@@ -1,6 +1,6 @@
 # Bookager 📚
 
-![Alt](https://repobeats.axiom.co/api/embed/5f5e4f1281d93218ec41c27078f9fe8a616115b7.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/ac3c198e70301046e71bc2aebe8feb9aa835e002.svg "Repobeats analytics image")
 
 **Bookager** is a cutting-edge web application that lets you manage your book collection effortlessly using AWS Cloud services. Enjoy seamless CRUD operations, secure user authentication, and a responsive, interactive UI.
 
